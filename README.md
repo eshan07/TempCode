@@ -10,3 +10,8 @@ vuexy select
             :options="option"
           />
         </b-form-group>
+        
+        import vSelect from 'vue-select' 
+          components: {
+    vSelect,
+  },
